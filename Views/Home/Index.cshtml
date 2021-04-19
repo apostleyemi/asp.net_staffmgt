@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Staffs>
+
+
+
+  
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h2>Staff Infomation</h2> <button class="btn btn-info">Add New</button>
+<table class="table">
+    <tr>
+       <th>ID</th>
+       <th>pic</th>
+       <th>Name</th>
+       <th>Email</th>
+       <th>Department</th>
+       <th>Action</th>
+    </tr>
+
+    @foreach(var staffs in Model)
+    {
+
+<tr>
+
+    <td>@staffs.Id</td>
+    <td><img src="~/img/mypic.jpg" width="50px" asp-append-version="true" /></td>
+    <td>@staffs.Name</td>
+    <td>@staffs.Email</td>
+    <td>@staffs.Department</td>
+    <td>
+    @* <a href="@Url.Action("Detailsgetwithid", "home", new {id =staffs.Id})" class="btn btn-primary">View</a> *@
+    @* <a asp-controller="Home" asp-action="Detailsgetwithid" class="btn btn-primary"  asp-route-id="@staffs.Id">View</a>  *@
+      <a  asp-action="Detailsgetwithid" class="btn btn-primary"  asp-route-id="@staffs.Id">View</a> 
+    <a asp-action="Detailsgetwithid" class="btn btn-info"  asp-route-id="@staffs.Id">Edit</a> 
+   <a  asp-action="Detailsgetwithid" class="btn btn-danger"  asp-route-id="@staffs.Id">Delete</a> 
+    
+    
+    </td>
+
+</tr>
+
+    }
+   
+
+</table>
+
+
+@section Scripts{
+    <script src="~/js/CustomScript.js"></script>
+}
+</body>
+
+</html>

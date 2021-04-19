@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@ViewData["PageTitle"]</h1>
+    <p>
+        @{
+           var staff=ViewData["Staff"] as  ems.Models.Staffs;
+
+        }
+      <table class="table">
+   <tr>
+       <th>Name</th>
+       <th>Mobile</th>
+       <th>Email</th>
+       <th>Action</th>
+   </tr>
+   <tr>
+       <td>@staff.Name</td>
+        <td>@staff.Email</td>
+         <td>@staff.Department</td>
+         <td> <a asp-action="index" class="btn btn-primary">Back</a></td>
+   </tr>
+      </table>
+      
+
+    </p>
+    
+   
+</body>
+</html>

@@ -1,0 +1,56 @@
+@model HomeGetdetailsViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asp.net Core by techspace</title>
+</head>
+<body>
+    <h1><u>@Model.PageTitle</u></h1>
+    <table class="table">
+    <thead>
+    <tr>
+     <th>Name</th>
+     <th>Email</th>
+     <th>Department</th>
+     </tr>
+     </thead>
+     <tbody>
+     
+        <tr>
+        <td>
+        
+        @Model.Staffs.Name
+        </td>
+         <td>
+        @Model.Staffs.Email
+        </td>
+         <td>
+        @Model.Staffs.Department
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        
+        @Model.nStaffs.Name
+        </td>
+         <td>
+        @Model.nStaffs.Email
+        </td>
+         <td>
+        @Model.nStaffs.Department
+        </td>
+        </tr>
+        
+
+
+     </tbody>
+
+    </table>
+
+    
+</body>
+</html>
