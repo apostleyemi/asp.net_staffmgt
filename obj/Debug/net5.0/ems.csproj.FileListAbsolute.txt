@@ -284,11 +284,6 @@
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/ems.TagHelpers.input.cache
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/ems.TagHelpers.output.cache
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/ems.RazorCoreGenerate.cache
-/home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Employee/Create.cshtml.g.cs
-/home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Employee/Delete.cshtml.g.cs
-/home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Employee/Details.cshtml.g.cs
-/home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Employee/Edit.cshtml.g.cs
-/home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Employee/Index.cshtml.g.cs
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Home/Details.cshtml.g.cs
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /home/tecspace/ASPproject/ems/obj/Debug/net5.0/Razor/Views/Home/indexview.cshtml.g.cs

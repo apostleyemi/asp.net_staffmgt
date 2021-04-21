@@ -27,13 +27,15 @@ namespace ems
         { 
 
             services.AddDbContextPool<AppDbContext>(
-                options => options.UseSqlServer(Configuration.GetConnectionString("EmsContext")))) ;
+                options => options.UseSqlServer(Configuration.GetConnectionString("EmsContext")));
             services.AddControllersWithViews();
 
             //string connectionString=Configuration.GetConnectionString("EmsContext");
             // services.AddDbContext<EmsContext>(options=>
             // options.UseSqlServer(connectionString));
-            services.AddSingleton<IStaffRepository, MockStaffsRepository>();
+            //this is where Repository is change from to SQL
+           // services.AddSingleton<IStaffRepository, MockStaffsRepository>();
+            services.AddScoped<IStaffRepository, SQLStaffRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

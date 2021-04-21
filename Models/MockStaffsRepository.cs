@@ -38,6 +38,30 @@ namespace ems.Models
         {
             return  _staffsList;
         }
-         
+
+        public Staffs Update(Staffs staffChanges)
+        {
+           Staffs staff =_staffsList.FirstOrDefault(e => e.Id == staffChanges.Id);
+            if(staff !=null)
+            {
+                staff.Name=staffChanges.Name;
+                staff.Email=staffChanges.Email;
+                staff.Department=staffChanges.Department;
+
+            }
+            return staff;
+        }
+
+        public Staffs Delete(int id)
+        {
+            Staffs staff =_staffsList.FirstOrDefault(e => e.Id == id);
+            if(staff !=null)
+            {
+                _staffsList.Remove(staff);
+
+            }
+            return staff;
+
+        }
     }
 }

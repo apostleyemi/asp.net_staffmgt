@@ -15649,18 +15649,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tecspace/ASPproject/ems/Views/Employee/Edit.cshtml",
-      "TargetPath": "Views\\Employee\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/tecspace/ASPproject/ems/Views/Home/Getdetails.cshtml",
       "TargetPath": "Views\\Home\\Getdetails.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/tecspace/ASPproject/ems/Views/Employee/Delete.cshtml",
-      "TargetPath": "Views\\Employee\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15684,11 +15674,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/tecspace/ASPproject/ems/Views/Employee/Create.cshtml",
-      "TargetPath": "Views\\Employee\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/tecspace/ASPproject/ems/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15696,16 +15681,6 @@
     {
       "FilePath": "/home/tecspace/ASPproject/ems/Views/Home/ShowStrongData.cshtml",
       "TargetPath": "Views\\Home\\ShowStrongData.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/tecspace/ASPproject/ems/Views/Employee/Details.cshtml",
-      "TargetPath": "Views\\Employee\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/tecspace/ASPproject/ems/Views/Employee/Index.cshtml",
-      "TargetPath": "Views\\Employee\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

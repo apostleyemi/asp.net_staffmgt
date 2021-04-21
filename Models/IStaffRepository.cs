@@ -10,6 +10,8 @@ namespace ems.Models
        Staffs GetStaffs(int Id);
        IEnumerable<Staffs> GetAllStaffs();
        Staffs Add(Staffs staff);
-       
+       Staffs Update(Staffs staffChanges);
+       Staffs Delete(int id);
+
     }
 }
